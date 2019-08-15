@@ -4,7 +4,10 @@ Web app that allow users to search the price trend and volume for a given stock 
 # How does it work ?
 The application was built using the [AngularJS framework](https://angularjs.org/), [VIS JS library](https://visjs.org/) for data visualization and the [Alpha Vantage API](https://www.alphavantage.co/documentation/) for providing the data sets.
 
-# How do I use it ?
+# What have I learned ?
+I've learned how to make REST API calls and parsing JSON array into objects that would be parsed into the graphing API. 
+
+# How to use it.
 1. Clone the repository.
 2. Open `index.html` in any browser.
 3. VIOLA !.
