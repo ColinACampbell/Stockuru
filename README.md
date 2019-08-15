@@ -10,7 +10,7 @@ The application was built using the [AngularJS framework](https://angularjs.org/
 3. VIOLA !.
 
 ## Please Note
-The api key used on this repository is the demonstration key used in the [Alpha Vantage API](https://www.alphavantage.co/documentation/) tutorials, you may use your own key if you wish ( amount of calls/searches allowedper minute is limited ).
+The api key used on this repository is the demonstration key used in the [Alpha Vantage API](https://www.alphavantage.co/documentation/) tutorials, you may use your own key if you wish ( amount of calls/searches allowed per minute is limited ).
 
 # ScreenShots
 ## Mobile
@@ -20,5 +20,5 @@ The api key used on this repository is the demonstration key used in the [Alpha 
 ![Mobile upper half](https://github.com/ColinACampbell/Stockuru/blob/master/graphics/Full_Top.png)  
 ![Mobile lower half](https://github.com/ColinACampbell/Stockuru/blob/master/graphics/Full_Low.png)  
 
-# Challanges 
+# Challanges/Issues
 While on a slow internet connection, whenever a different symbol is entered and searched, instead of the graphs being deleted and drawn again to represent they newly searched stock, the graphs for the newly entered stocks are drawn under the graphs of the previously searched stock. 
