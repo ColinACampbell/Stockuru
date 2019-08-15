@@ -13,3 +13,9 @@ The application was built using the [AngularJS framework](https://angularjs.org/
 The api key used on this repository is the demonstration key used in the [Alpha Vantage API](https://www.alphavantage.co/documentation/) tutorials, you may use you own key if you wish
 
 # ScreenShots
+## Mobile
+![Mobile upper half](https://github.com/ColinACampbell/Stockuru/blob/master/graphics/Mobile_Top.png)
+![Mobile lower half](https://github.com/ColinACampbell/Stockuru/blob/master/graphics/Mobile_Low.png)
+## Desktop
+![Mobile upper half](https://github.com/ColinACampbell/Stockuru/blob/master/graphics/Full_Top.png)
+![Mobile lower half](https://github.com/ColinACampbell/Stockuru/blob/master/graphics/Full_Low.png)
