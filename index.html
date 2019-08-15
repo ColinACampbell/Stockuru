@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title> Stockuru </title>
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="style/main.css"/>
+        <link rel="stylesheet" href="style/custom.css"/>
+        <link rel="stylesheet" href="style/response.css"/>
+        <link rel="stylesheet" href="vis/vis.css"/>
+        <script src="script/angular.js"> </script>
+        <script src="script/view.js"></script>
+        <script src="script/controller.js"></script>
+        <script src="vis/vis-timeline-graph2d.min.js"></script>
+        <script src="vis/vis.min.js"></script>
+    </head>
+    <body ng-app="App" ng-controller="App-Controller">
+        <header class="cyan5">
+            <h1 id="header-title"> Stockuru </h1>
+            <div id="searchBox-container">
+                <input type="text" placeholder="Search Symbol" ng-model="searchBoxValue">
+                <br/>
+                <button id="search-btn" ng-click="search()"> Search </button>
+            </div>
+        </header>
+        <div class="content">
+            <div class="symbol">  
+                <h1 style="text-transform:uppercase" ng-if="results"> {{ info.name }} </h1> 
+            </div>
+            <div class="overview"> 
+
+                <h2 ng-if="error" style="color:rgba(255, 0, 0, 0.7); padding:5px;"> Something Went Wrong, Either Internet Connection Is Poor Or The Symbol Doesn't Exists.  </h2>
+                <h2 ng-if="!results" style="color:gray; padding:5px;">  
+                    Enter The Symbol Name of The Company's Stock Performance You'd To View Then Click Search. A Maximum Of Five Searches Can Be Made A Minute 
+                    <h5 ng-if="!results" style="color:#134f5c">  Created By <a href="https://colinacampbell.github.io" target="_blank" > Colin Campbell </a> </h5>
+                </h2>
+               
+                <table ng-if="results">
+                    <tr>
+                        <th> Open </th>
+                        <th> High </th>
+                        <th> Low </th>
+                        <th> Close </th>
+                        <th> Volume </th>
+                    </tr>
+                    <tr>
+                        <td> {{ info.open }} </td>
+                        <td> {{ info.high }} </td>
+                        <td> {{ info.low }}  </td>
+                        <td> {{ info.close }}  </th>
+                        <td> {{ info.volume }} </td>
+                    </tr>
+                </table>
+                <hr style="width:85%"/ ng-if="results">
+                <center>
+                    <br/>
+                    <h2 ng-if="results" style="color:#134f5c"> Volume Traded </h2>
+                    <br/>
+                    <div id="volume-trend-graph"></div>
+                    <br/>
+                </center>
+                <center>
+                    <h2 ng-if="results" style="color:#134f5c"> Stock Price </h2>
+                    <br/>
+                    <div id="price-trend-graph"></div>
+                    <br/>
+                </center>
+            </div>
+        </div>
+        
+       
+    </body>
+</html>

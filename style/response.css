@@ -1,0 +1,133 @@
+@media screen and (max-width:800px)
+{
+    *
+    {
+        outline: none;
+    }
+
+    body 
+    {
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    }
+
+    button
+    {
+        outline: none;
+    }
+
+    header
+    {
+        height: 140px;
+    }
+
+    #header-title
+    {
+        width:175px;
+        color:white;
+        float:left;
+        position: relative;
+        top:20%;
+        left: 30px;
+    
+    }
+
+
+    #searchBox-container
+    {
+        width: 95%;
+    }
+
+    #searchBox-container > input
+    {
+        width: 95%;
+        height: 35px;
+        font-size:20px;
+        text-align:center;
+        position: relative;
+        color: #134f5c;
+        border-radius: 10px;
+        border: 2px solid #134f5c;
+        margin-top:calc( (100px - 35px) / 2); /** The different of the header height and the input height divided by 2 to center vertically**/
+    }
+
+    div.content
+    {
+        width:100%;
+        height: calc(100% - 140px);
+        top:140px;
+        position: relative;
+        overflow-y: scroll;
+    }
+
+    .overview
+    {
+        overflow: scroll;
+    }
+
+    .overview > table
+    {
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-width:415px)
+{
+    td
+    {
+        width:90px;
+        text-align: center;
+    }
+
+    .result-card
+    {
+        width:95%;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width:360px)
+{
+    td
+    {
+        width:90px;
+        text-align: center;
+    }
+
+    .result-card
+    {
+        width:95%;
+        border-radius: 0px;
+    }
+
+    .result-card > .symbol
+    {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        word-wrap: break-word;
+        position: relative;
+        top:45px;
+        left:5px;
+        display: table-cell;
+        vertical-align: middle;
+        color:white;
+        background-color: #134f5c;
+    }
+
+    .result-card > .result-statistics
+    {
+        position: relative;
+        left:105px;
+        top:-58px;
+        color:#134f5c;
+    }
+}
+
+

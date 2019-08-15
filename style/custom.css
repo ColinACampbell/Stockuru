@@ -1,0 +1,102 @@
+#header-title
+{
+    color:white;
+    float:left;
+    position: relative;
+    top:28%;
+    left: 30px;
+    width:200px;
+}
+
+#searchBox-container
+{
+    width:410px;
+    height:100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#searchBox-container > input
+{
+    width: 400px;
+    height: 35px;
+    font-size:20px;
+    text-align:center;
+    position: relative;
+    color: #134f5c;
+    border-radius: 10px;
+    border: 2px solid #134f5c;
+    margin-top:calc( (90px - 35px) / 2); /** The different of the header height and the input height divided by 2 to center vertically**/
+}
+
+.content
+{
+    width:100%;
+    height: calc(100% - 100px);
+    top:100px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+}
+
+.cyan5
+{
+    background-color: #134f5c;
+}
+
+#search-btn
+{
+    position: relative;
+    top:5px;
+    border:none;
+    width: 100px;
+    height: 23px;
+    background-color: #49a1aa;
+    color:white;
+    border-radius: 5px;
+}
+
+#search-btn:active
+{
+    background-color: #40969e;
+}
+
+.symbol
+{
+    width:100%;
+    text-align: center;
+    margin-top:20px;
+    height:50px;
+    color:#134f5c;
+}
+
+.overview
+{
+    width:100%;
+    text-align: center;
+}
+
+.overview > table
+{
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
+    color:#134f5c;
+}
+
+
+.overview > table > td,th
+{
+    width: 100px;
+    height: 30px;
+}
+
+#volume-trend-graph
+{
+    margin-left:auto;
+    margin-right: auto;
+}
+

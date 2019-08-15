@@ -1,0 +1,36 @@
+body
+{
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    width:100%;
+    height: 100px;
+    position: fixed;
+    opacity: 1;
+    z-index: 10;
+}
+
+
+a
+{
+    text-decoration: none;
+    color:#364cc9d3;
+}
+
+hr
+{
+    background: gray;
+    border:.5px solid grey;
+}
+
