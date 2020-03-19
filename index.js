@@ -10,5 +10,5 @@ app.get('/*',(req,res)=>{
 const port = process.env.PORT || 3000
 app.listen(port,(err)=>{
     if (err) throw err;
-    console.log(`Server started on https://localhost:${port}`);
+    console.log(`Server started on http://localhost:${port}`);
 })
