@@ -1,0 +1,22 @@
+{
+  "name": "stockuru",
+  "version": "2.0.0",
+  "description": "Search the NASDAQ for pricess quickly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColinACampbell/Stockuru.git"
+  },
+  "author": "Colin A Campbell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColinACampbell/Stockuru/issues"
+  },
+  "homepage": "https://github.com/ColinACampbell/Stockuru#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
